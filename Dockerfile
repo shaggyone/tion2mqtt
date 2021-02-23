@@ -1,5 +1,5 @@
 FROM python:3-alpine
-COPY qemu-arm-static /usr/bin
+# COPY qemu-arm-static /usr/bin
 WORKDIR /app
 
 COPY requirements.txt ./
